@@ -1,0 +1,25 @@
+
+Create a branch and make a change
+1. cd ~/repos/repository/
+2. git branch future-plans
+3. git checkout future-plans 
+4. Search for the repository folder on your LOCAL SYSTEM and open it.
+5. Make a change to the file
+6. Save and exit
+7. git status
+8. git add htmlcode
+9. git commit stationlocations -m 'making a change in a branch' 
+
+Merge your branch: fast-forward merging
+1. cd ~/repos/repository/
+2. git status 
+3. git checkout master 
+4. git merge future-plans
+5. git branch -d future-plans 
+6. git status 
+
+Push your change to Bitbucket
+1. git push origin master
+	If error then : a) git pull
+			b) git push
+2. overview bitbucket repository

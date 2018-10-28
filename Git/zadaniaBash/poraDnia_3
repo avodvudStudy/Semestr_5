@@ -1,0 +1,26 @@
+#!/bin/bash
+
+if [ "$1" != "" ]; then
+	if [ "$1" == "part_of_day" ]; then
+		current=`date +%H`
+		if [ "$current" -lt "6" ]; then
+			echo "night"
+		elif [ "$current" -lt "8" ]; then
+			echo "early"
+		elif [ "$current" -lt "10" ]; then
+			echo "morning"
+		elif [ "$current" -lt "12" ]; then
+			echo "lunchtime"
+		elif [ "$current" -lt "16" ]; then
+			echo "day"
+		elif [ "$current" -lt "20" ]; then
+			echo "evening"
+		elif [ "$current" -lt "22" ]; then
+			echo "late"
+		else 
+			echo "night"
+		fi
+	fi
+fi
+
+

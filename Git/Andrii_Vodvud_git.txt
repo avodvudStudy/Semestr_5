@@ -1,0 +1,63 @@
+
+1. git config --global user.name "Andrii Vodvud"  //konfiguracja imienia
+   git config --global user.email "andrii.vodvud@smcebi.edu.pl" //i maila uzytkownika zdalnego repozytorium
+   git init				//zalozenie git-repozytorium na lokalnym komputerze
+2. git add .	//dodaje do bufora gita biezacy katalog
+3. git commit -m 'initial commit of full repository'
+4. cd /path/to/my/repo
+5. git remote add origin https://andvod@bitbucket.org/andvod/repositoryexercises.git
+					//dodanie adresu zdalnego repozytorium na git-repozytorium
+	a) git clone https://andvod@bitbucket.org/andvod/repositoryexercises.git
+					//inny sposob dodawania repozytorium
+6. git push -u origin --all # pushes up the repo and its refs for the first time
+7. git push origin --tags # pushes up any tags
+8. echo "Hello world" >> new.txt
+9. git add new.txt
+10. git commit -m "Was added one file"	//zatwirdza dane z wiadomoscia
+11. git push --all origin		//wysyla dane do zdalnego repozytorium
+12. git brunch b1			//tworzy galaz
+13. git checkout b1			//przechodzi na galaz b1
+	a) git status			//sprawdzanie na jakiej galezi jest uzytkownik
+14. echo "branch b1" >> branch_b1.txt	//dopisuje do pliku branch_b1.txt
+15. git add brubch_b1.txt		//dodaje do bufora branch_b1.txt
+16. git branch b2
+17. git checkout b2
+18. echo "branch b2a" >> branch_b2a.txt
+19. echo "branch b2b" >> branch_b2b.txt
+20. git log				//wiadomosci o commitach
+21. git add brubch_b2a.txt
+22. git add brubch_b2b.txt
+23. git log -p
+24. git log --graph
+25. git log --stat
+26. git diff				//pokazuje roznice miedzy galeziami
+27. git diff --base branch_b2b.txt
+28. git commit -m "Add two branches"
+29. git push --all origin
+30. git checkout master
+31. git merge b1,b2
+32. git commit -m "Merging"
+33. git push --all origin
+34. git branch b3
+35. git checkout b3
+36. echo "branch 3" >> branch3.txt
+37. git add branch3.txt
+38. echo "branch 3 end" >> branch3end.txt
+39. git checkout master
+40. git merge b3
+41. git add branch3end.txt
+42. git commit -m "Add branch 3"
+43. git log // copy index
+44. git tag 1.1.0 7b5993e7ceecbcd77a4932e986f161352ba4852e	//twozry nowy tag
+45. git push --tags origin
+46. git push --all origin
+47. git checkout b1
+48. echo "reset" >> reset.txt
+49. git add reset.txt
+50. git reset --hard origin/master	//usuwa wszystkie zmiany do ostatniego commita
+51. git commit -m "reset"
+52. git pull --all			//sciaga dane ze zdalnego repozytorium
+53. ls
+
+
+

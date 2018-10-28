@@ -1,0 +1,530 @@
+
+create table Project(
+IdProj int,
+Nazwa varchar(50) not null,
+budzet varchar(50),
+termin int,
+NIP_Odbiorcy int not null,
+CONSTRAINT pk_projIdProj Primary Key (IdProj)
+);
+
+create table REALIZACJA (
+NrPrac int,
+IdProj int,
+termin_rozpoczecia date,
+termin_zakonczenia date,
+stanowisko varchar(50),
+wynagrodzenie int,
+CONSTRAINT fk_PracReal FOREIGN KEY (NrPrac) REFERENCES Pracownik (NrPrac),
+CONSTRAINT fk_ProjReal FOREIGN KEY (IdProj) REFERENCES Project (IdProj)
+);
+
+alter table Project
+Modify termin int;
+
+select tablespace_name, table_name from user_tables;
+
+select * from realizacja;
+
+delete from realizacja
+where nrprac = 2;
+
+
+alter table pracownik
+drop constraint SYS_C008682;
+
+alter table pracownik
+modify imie not null;
+
+grant all on pracownik to RT_SKARELIN;
+revoke all on pracownik from RT_SKARELIN;
+create synonym prac for rt_avodvud.pracownik;
+
+DECLARE
+   a number(2);
+BEGIN
+   FOR a in 10 .. 20 LOOP
+       dbms_output.put_line('value of a: ' || a);
+  END LOOP;
+END;
+/
+
+@C:\Users\andrii.vodvud\Desktop\declar.txt
+
+set serveroutput on;
+
+ALTER USER RT_AVodvud IDENTIFIED BY vodvud10;
+
+declare
+a int;
+print varchar(20);
+
+begin
+select print into a 
+from pracownik;
+--where nrprac = 1;
+
+EXCEPTION
+    WHEN TOO_MANY_ROWS THEN
+    DBMS_OUTPUT.PUT_LINE ('Zaduzo wierszy.');
+    WHEN NO_DATA_FOUND THEN
+    DBMS_OUTPUT.PUT_LINE ('Zamalo wierszy.');
+
+
+DBMS_output.put_line(print);
+end;
+/
+
+create or replace FUNCTION s(x in number) return number is n1 number;
+    begin
+        n1 := 1;
+        FOR i in 1 .. x LOOP
+            n1 := n1*i;
+	    INSERT INTO SILNIA(X_NUMBER, Y_NUMBER)
+	    VALUES(i, n1);
+        END LOOP;
+	return (n1);
+    end;
+/
+
+select s(5) from dual;
+
+
+select text 
+  from user_source u 
+ where u.type = 'FUNCTION' 
+   and u.name = 'SILNIAREC' 
+ order by line asc;
+
+create or replace FUNCTION silniaRec(x in number) return number is retIn number;
+    begin
+        if x <= 1 THEN
+		retIn := 1;
+		return retIn;
+	else
+		retIn := x * silniaRec(x-1);
+		return retIn;
+	end if;
+    end;
+/
+
+select silniarec(5) from dual;
+
+CREATE OR REPLACE PROCEDURE greetings(a in number)
+AS
+
+BEGIN
+   dbms_output.put_line(a);
+END;
+/
+
+declare
+row pracownik%rowtype;
+
+begin
+	
+   row.nrprac  := 7;
+   row.imie := 'Nuha'; 
+   row.nazwisko := 'Ali';
+   row.email := 'nura.ali@smcebi.edu.pl';
+
+    writeRecord(row);
+end;
+/
+
+grant execute on writeRecord to RT_SKARELIN;
+
+begin
+	begin
+		raise no_data_found;
+	exception
+		when no_data_found then
+			RAISE too_many_rows;
+		when too_many_rows then
+			raise_application_error(-20000, 'n2');
+		when others then
+			raise_application_error(-20000, 'n3');
+	end;
+
+EXCEPTION
+   WHEN no_data_found THEN
+      raise_application_error(-20000, 'n4');
+   WHEN too_many_rows THEN
+      raise_application_error(-20000, 'n5');
+   WHEN others THEN
+      raise_application_error(-20000, 'n6');
+end;
+/
+
+DECLARE
+   name pracownik.imie%TYPE;
+   v_code NUMBER;
+   v_errm VARCHAR2(64);
+BEGIN
+   SELECT imie INTO name FROM pracownik WHERE nrprac = 1000;
+   EXCEPTION
+      WHEN OTHERS THEN
+         v_code := SQLCODE;
+         v_errm := SUBSTR(SQLERRM, 1 , 64);
+         DBMS_OUTPUT.PUT_LINE('The error code is ' || v_code || '- ' || v_errm);
+END;
+/
+
+create or replace type pracownikRecord is object
+      (nrprac int,
+       imie varchar2(50),
+       nazwisko varchar2(100),
+       email varchar2(100));
+/
+
+
+create sequence test
+	minvalue 1
+	maxvalue 9999
+	start with 1
+	increment by 1;
+
+CREATE OR REPLACE PROCEDURE procSeq
+AS
+
+BEGIN
+	insert into pracownik(nrprac)
+	values (test.nextval);
+END;
+/
+
+create or replace FUNCTION include(x in number) return number is ret number;
+    begin
+        declare 
+		cursor pracownicy is
+		select nrprac from pracownik;
+	begin
+		for n in pracownicy loop
+			if x = n.nrprac then
+				ret := -1;
+				return ret;
+			end if;
+		end loop;
+		ret := 0;
+		return ret;
+	end;
+	return ret;
+    end;
+/	
+
+CREATE OR REPLACE TRIGGER seq
+BEFORE INSERT OR UPDATE ON pracownik
+FOR EACH ROW
+WHEN (NEW.nrprac > 0)
+declare 
+counter number;
+
+BEGIN
+   LOOP
+   
+   SELECT COUNT(*) INTO counter
+   FROM pracownik
+   WHERE nrprac = :NEW.nrprac;
+
+   if counter > 0 then
+	select test.nextval into :NEW.nrprac from dual;
+   else
+	exit;
+   end if;
+
+   end LOOP;
+	
+
+
+   dbms_output.put_line('Old number: ' || :OLD.nrprac);
+   dbms_output.put_line('New number: ' || :NEW.nrprac);
+END;
+/
+
+CREATE OR REPLACE TRIGGER WithDate
+AFTER INSERT OR UPDATE OR DELETE ON pracownik
+declare
+starting date;
+ending date;
+current date;
+
+BEGIN
+   select TO_DATE('2016/11/20', 'yyyy/mm/dd') into starting from dual;
+   select TO_DATE('2016/11/30', 'yyyy/mm/dd') into ending from dual;
+   SELECT SYSDATE into current FROM DUAL;
+
+   if (current between starting and ending) then
+	dbms_output.put_line('ok');
+
+   IF DELETING THEN 
+        raise_application_error(-20000, 'Nie wolno usuwac');
+   END IF;
+
+   IF INSERTING THEN 
+        raise_application_error(-20001, 'Nie wolno wstawiac');
+   END IF;
+
+   IF UPDATING THEN 
+        raise_application_error(-20002, 'Nie wolno aktualizowac');
+   END IF; 
+
+   end if;   
+
+END;
+/
+
+CREATE OR REPLACE TRIGGER security_prac_real
+BEFORE DELETE ON pracownik
+FOR EACH ROW
+declare 
+stan number;
+
+BEGIN
+
+   select count(nrprac) into stan 
+   from realizacja 
+   where nrprac = :OLD.nrprac;
+	
+   if ( stan > 0 ) then 
+	raise_application_error(-20010, 'Nie mozna usuwac, parent table');
+   end if;
+	
+   dbms_output.put_line('Old number: ' || :OLD.nrprac);
+   dbms_output.put_line('Operacja udana');
+END;
+/
+
+alter table realizacja
+add constraint fk_pracreal FOREIGN KEY (nrprac)
+REFERENCES pracownik(nrprac);
+
+
+CREATE VIEW InsteadView
+AS SELECT nrprac, imie, nazwisko, email
+FROM pracownik;
+
+
+CREATE or replace TRIGGER PracRealTrigger
+INSTEAD OF INSERT on PracownikRealizacja
+for each row
+BEGIN
+	insert into pracownik(nrprac, imie, nazwisko, email)
+	values(:NEW.nrprac, :NEW.imie, 'default', 'default');
+
+	insert into realizacja(nrprac, idproj, termin_rozpoczecia,
+	termin_zakonczenia, stanowisko, wynagrodzenie)
+	values(6, 1, SYSDATE, SYSDATE, :NEW.stanowisko, 0);
+
+END;
+/
+
+CREATE OR REPLACE PROCEDURE CursorPracownik
+AS
+
+   CURSOR c_pracownik is
+      SELECT * FROM pracownik;
+   row pracownik%rowtype;
+   
+   err_msg varchar(200);
+   err_nr number;
+
+BEGIN
+   OPEN c_pracownik;
+   LOOP
+      BEGIN 
+
+      FETCH c_pracownik into row;
+      EXIT WHEN c_pracownik%notfound;
+      insert into RT_SKARELIN.pracownik_andrii(nrprac, imie, nazwisko)
+      values(row.nrprac, row.imie, row.nazwisko);
+
+	UPDATE pracownik
+	set status=1
+	where nrprac=row.nrprac;
+      
+	EXCEPTION
+		when OTHERS then
+			err_msg := SQLERRM;
+			err_nr := SQLCODE;
+			UPDATE pracownik
+			set status=0, error_code=err_nr, blad=err_msg
+			where nrprac=row.nrprac;
+      END;
+
+   END LOOP;
+   CLOSE c_pracownik;
+END;
+/
+
+
+CREATE OR REPLACE TRIGGER pracownik_andrii_trigger
+BEFORE INSERT ON pracownik_andrii
+for each row 
+declare
+imie varchar(36);
+PRAGMA AUTONOMOUS_TRANSACTION;
+
+BEGIN
+   if (instr(:new.imie, 'A', 1, 1) = 1) then
+	raise_application_error(-20000, 'Pierwszy symbol imienia nie moze byc A!');
+   end if; 
+
+	INSERT INTO pracownik_andrii_2(nrprac, imie, nazwisko)
+	VALUES(:new.nrprac, :new.imie, :new.nazwisko);
+
+	COMMIT;
+
+END;
+/
+
+
+create table pracownik_backup(
+new_nrprac number,
+new_imie varchar(100),
+new_nazwisko varchar(100),
+new_email varchar(150),
+DML varchar(10),
+old_nrprac number,
+old_imie varchar(100),
+old_nazwisko varchar(100),
+old_email varchar(150));
+
+CREATE OR REPLACE TRIGGER pracownik_trigger_pragma
+BEFORE INSERT OR UPDATE OR DELETE ON RT_AVODVUD.pracownik
+for each row 
+declare
+
+PRAGMA AUTONOMOUS_TRANSACTION;
+
+BEGIN
+	IF INSERTING THEN
+		insert into RT_AVODVUD.pracownik_backup(new_nrprac, new_imie,
+				new_nazwisko, new_email, DML)
+		values( :new.nrprac, :new.imie, :new.nazwisko, :new.email, 'insert');  
+	ELSIF UPDATING THEN
+		insert into RT_AVODVUD.pracownik_backup(new_nrprac,
+			new_imie, new_nazwisko, new_email, DML, old_nrprac, 
+			old_imie, old_nazwisko, old_email)
+		values( :new.nrprac, :new.imie, :new.nazwisko, :new.email,
+			'update', :old.nrprac, :old.imie, :old.nazwisko, :old.email);
+	ELSIF DELETING THEN
+		insert into RT_AVODVUD.pracownik_backup( DML, old_nrprac, 
+			old_imie, old_nazwisko, old_email)
+		values( 'delete', :old.nrprac, :old.imie, :old.nazwisko, :old.email);
+	END IF;
+	commit;
+
+END;
+/
+
+create or replace type mytable as object(
+		nrprac number,
+		imie varchar(100));
+/
+
+
+create or replace package pack as
+	procedure showPracownik; 
+	function insertPracownik(nrpracFunc in pracownik.nrprac%type,
+		imieFunc in pracownik.imie%type, 
+		nazwiskoFunc in pracownik.nazwisko%type, 
+		emailFunc in pracownik.email%type) return number;
+END pack;
+/
+
+
+create or replace package body pack as
+	procedure showPracownik as 
+		cursor c_pracownik is
+			select * from pracownik;
+		row pracownik%rowtype;
+	begin
+		open c_pracownik;
+		loop
+			fetch c_pracownik into row;
+			exit when c_pracownik%notfound;
+			dbms_output.put_line(row.nrprac || '  ' || row.imie || '  ' 
+				|| row.nazwisko || '  ' || row.email );
+		end loop;
+		close c_pracownik;
+	end showPracownik;
+
+	function insertPracownik(nrpracFunc in pracownik.nrprac%type,
+		imieFunc in pracownik.imie%type, 
+		nazwiskoFunc in pracownik.nazwisko%type, 
+		emailFunc in pracownik.email%type) 
+				return number is
+		begin 
+			insert into pracownik(nrprac, imie, nazwisko, email)
+			values( nrpracFunc, imieFunc, 
+				nazwiskoFunc, emailFunc );
+			return 0;
+	end insertPracownik;
+END pack;
+/
+
+DECLARE
+ret number;
+BEGIN
+   ret := pack.insertPracownik(8, 'Nikita', 'Burkowski', 'nikita.burkowski@smcebi.edu.pl');
+   dbms_output.put_line(ret);
+END;
+/
+
+declare
+x varchar2(100);
+y varchar2(100);
+
+begin
+x := 'insert into pracownik (nrprac, imie, nazwisko)
+	values (8, ''Ariel'', ''Rzepecki'')';
+
+dbms_output.put_line(x);
+
+execute immediate 'delete from pracownik where nrprac = 8';
+
+execute immediate x;
+
+end;
+/
+
+
+DECLARE
+x varchar2(50);
+
+BEGIN
+execute immediate   'create table tabela(id number, i number, opis varchar2(100))';  
+execute immediate   'insert into tabela values (1, 5, ''opis1'')';
+execute immediate   'insert into tabela values (2, 8, ''opis2'')';
+execute immediate   'insert into tabela values (3, 4, ''opis3'')';
+execute immediate   'insert into tabela values (4, 7, ''opis4'')';
+execute immediate   'update tabela set opis=''nowy opis'' where id = 4';
+execute immediate   'alter table tabela add tmp varchar2(20)';
+execute immediate   'alter table tabela drop column tmp';
+execute immediate   'delete from tabela where id=4';
+END;
+/
+
+DECLARE
+x varchar2(50);
+
+BEGIN
+
+insert into tabela(id, i, opis)
+	values(5, 1, 'insert into tabela values (4, 7, ''opis4'')');
+insert into tabela(id, i, opis)
+	values(6, 1, 'update tabela set opis=''nowy opis'' where id = 4');
+END;
+/
+
+declare 
+code varchar2(100);
+begin
+for indexLoop in 5..6 loop
+	select opis into code from tabela where id = indexLoop;
+	execute immediate code;
+	dbms_output.put_line('ok');
+end loop;
+end;
+/
+

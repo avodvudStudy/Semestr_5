@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -a "$1" ]; then
+	echo "plik istnieje"
+else
+	echo "plik nie istnieje"
+fi
+

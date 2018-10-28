@@ -1,0 +1,20 @@
+#!/bin/bash
+echo ""
+echo "  prosze podac pore dnia "
+echo ""
+select l in early late day night morning lunchtime evening
+do
+  case "$l" in
+      "early") echo "early" ;;
+      "late") echo "late" ;;
+      "day") echo "day" ;;
+      "night") echo "night" ;;
+      "morning") echo "morning" ;;
+      "lunchtime") echo "lunchtime" ;;
+      "evening") echo "evening";;
+      *) echo "podany bledny tryb"
+  esac
+break
+done
+
+

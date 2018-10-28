@@ -1,0 +1,24 @@
+chmod --S--s--T = 7010
+
+ln xxx yyy - link twardy
+cp xxx yyy - copy
+
+home/user/home/user
+	 /bin
+	 /user/bin
+	 /lib
+
+ch root \ 
+# ch root \
+echo $PS2 - promnt string 2
+echo $PS1 - promnt string 1
+export PS2=' '
+ch root \
+
+mieki linki - tworzenie linkow do nieistnioncych plikow
+
+mkdir newDirectory
+touch ' Ctrl-V Ctrl-H'
+
+ls -i
+find . -inum 297981 -exec ln {} link \;

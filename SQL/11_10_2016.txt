@@ -1,0 +1,64 @@
+
+create table Pracownik(
+NrPrac int,
+imie varchar(50) not null,
+nazwisko varchar(50) not null,
+email varchar(80),
+CONSTRAINT pk_pracNrPrac Primary Key (NrPrac)
+);
+
+create table Project(
+IdProj int,
+Nazwa varchar(50) not null,
+budzet varchar(50),
+termin int,
+NIP_Odbiorcy int not null,
+CONSTRAINT pk_projIdProj Primary Key (IdProj)
+);
+
+create table REALIZACJA (
+NrPrac int,
+IdProj int,
+termin_rozpoczecia date,
+termin_zakonczenia date,
+stanowisko varchar(50),
+wynagrodzenie int,
+CONSTRAINT fk_PracReal FOREIGN KEY (NrPrac) REFERENCES Pracownik (NrPrac),
+CONSTRAINT fk_ProjReal FOREIGN KEY (IdProj) REFERENCES Project (IdProj)
+);
+
+insert into pracownik (NrPrac, imie, nazwisko, email)
+values (1, 'Katarzyna', 'Bancarz', 'katarzyna.bancarz@smcebi.edu.pl');
+
+insert into pracownik (NrPrac, imie, nazwisko, email)
+values (2, 'Laura', 'Dymarczyk', 'laura.dymarczyk@smcebi.edu.pl');
+
+insert into pracownik (NrPrac, imie, nazwisko, email)
+values (3, 'Wojtek', 'Balawender', 'wojtek.balawender@smcebi.edu.pl');
+
+insert into project (IdProj, Nazwa, budzet, termin, NIP_Odbiorcy)
+values (1, 'Magazyn', 10000, 100, 909324532452);
+
+insert into project (IdProj, Nazwa, budzet, termin, NIP_Odbiorcy)
+values (2, 'Sklep', 20000, 150, 43634363463);
+
+insert into realizacja (NrPrac, IdProj, termin_rozpoczecia, termin_zakonczenia, stanowisko, wynagrodzenie)
+values (2, 2, to_date('20/06/2016', 'dd/mm/yyyy'), to_date('20/06/2016', 'dd/mm/yyyy'), 'student', 7500);
+
+alter table Project
+Modify termin int;
+
+select tablespace_name, table_name from user_tables;
+
+select * from realizacja;
+
+delete from realizacja
+where nrprac = 2;
+
+
+alter table pracownik
+drop constraint SYS_C008682;
+
+alter table pracownik
+modify imie not null;
+

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo ""
+echo ""
+case "$1" in
+    "early") echo "early" ;;
+    "late") echo "late" ;;
+    "day") echo "day" ;;
+    "night") echo "night" ;;
+    "morning") echo "morning" ;;
+    "lunchtime") echo "lunchtime" ;;
+    "evening") echo "evening";;
+    *) echo "podany bledny tryb"
+esac
+

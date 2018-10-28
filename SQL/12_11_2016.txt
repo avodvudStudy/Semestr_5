@@ -1,0 +1,35 @@
+
+desc silnia;
+
+create or replace PROCEDURE SilniaInsert (retY in number)
+AS
+    begin
+	dbms_output.put_line('retY: ' || retY);
+        insert into silnia (Y_number)
+	values(retY);
+	commit;
+    end;
+/
+
+create or replace FUNCTION silniaCreate (n in number) return number is ret number;
+    PRAGMA AUTONOMOUS_TRANSACTION;
+    begin
+        if n <= 1 THEN
+		ret := 1;
+		SilniaInsert(ret);
+	else
+		ret := n * silniaCreate(n-1);
+		SilniaInsert(ret);
+	end if;
+	return ret;
+    end;
+/
+
+create or replace procedure selectSYSDATE
+    AS
+	n date;
+    begin
+	select Sysdate into n from dual;
+	DBMS_output.put_line(n);
+    end;
+/

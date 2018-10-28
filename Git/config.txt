@@ -1,0 +1,2 @@
+
+git config --system --replace-all http.sslcainfo "C:\Program Files\Git\mingw64\ssl\certs\ca-bundle.crt"

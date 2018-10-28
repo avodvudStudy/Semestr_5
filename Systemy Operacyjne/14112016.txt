@@ -1,0 +1,25 @@
+
+$ pym1 | pym2 | pym3 >> xxx < yyy  // potoki
+
+top -o %MEN 			   // %MEN - name collumn
+
+wc -l /etc/passwd|sort|sort -n|tail -3
+
+cat -A      ctrl+shift+2
+
+ssh demo@155.158.107.205	show_me
+
+top	-c 	- all process interactive
+	-co PID - sort by PID
+
+ps -p 1648,756 -o comm=			//top command
+ps -p 1648,756 -o pid,user,command	//top PID,user,command
+
+tr ABC xyz	//translater
+
+ps aux		//procesing
+
+ps aux | sort
+ 
+ps -eo pid,user,args --sort user
+ps -af | grep pine

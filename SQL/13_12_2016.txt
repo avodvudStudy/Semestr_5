@@ -1,0 +1,96 @@
+
+CREATE OR REPLACE PROCEDURE CursorPracownik
+AS
+
+   CURSOR c_pracownik is
+      SELECT * FROM pracownik;
+   row pracownik%rowtype;
+   
+   err_msg varchar(200);
+   err_nr number;
+
+BEGIN
+   OPEN c_pracownik;
+   LOOP
+      BEGIN 
+
+      FETCH c_pracownik into row;
+      EXIT WHEN c_pracownik%notfound;
+      insert into RT_SKARELIN.pracownik_andrii(nrprac, imie, nazwisko)
+      values(row.nrprac, row.imie, row.nazwisko);
+
+	UPDATE pracownik
+	set status=1
+	where nrprac=row.nrprac;
+      
+	EXCEPTION
+		when OTHERS then
+			err_msg := SQLERRM;
+			err_nr := SQLCODE;
+			UPDATE pracownik
+			set status=0, error_code=err_nr, blad=err_msg
+			where nrprac=row.nrprac;
+      END;
+
+   END LOOP;
+   CLOSE c_pracownik;
+END;
+/
+
+
+alter table pracownik
+add status number(1);
+
+alter table pracownik
+add blad varchar(200);
+
+
+
+CREATE OR REPLACE TRIGGER pracownik_andrii_trigger
+BEFORE INSERT ON pracownik_andrii
+for each row 
+declare
+imie varchar(36);
+PRAGMA AUTONOMOUS_TRANSACTION;
+
+BEGIN
+   if (instr(:new.imie, 'A', 1, 1) = 1) then
+	raise_application_error(-20000, 'Pierwszy symbol imienia nie moze byc A!');
+   end if; 
+
+	INSERT INTO pracownik_andrii_2(nrprac, imie, nazwisko)
+	VALUES(:new.nrprac, :new.imie, :new.nazwisko);
+
+	COMMIT;
+
+END;
+/
+
+
+create table pracownik_2(
+nrprac number,
+imie varchar(100),
+nazwisko varchar(100),
+email varchar(100));
+
+
+CREATE OR REPLACE TRIGGER pracownik_delete_trigger
+BEFORE DELETE ON pracownik
+for each row 
+declare
+PRAGMA AUTONOMOUS_TRANSACTION;
+
+BEGIN
+
+	INSERT INTO pracownik_2(nrprac, imie, nazwisko, email)
+	VALUES(:old.nrprac, :old.imie, :old.nazwisko, :old.email);
+
+	COMMIT;
+
+END;
+/
+
+
+delete from pracownik where nrprac=4;
+
+

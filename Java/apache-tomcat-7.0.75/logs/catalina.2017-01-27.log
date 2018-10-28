@@ -1,0 +1,2317 @@
+ñ³÷. 27, 2017 11:17:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 11:17:26 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 11:17:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:17:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:17:27 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3343 ms
+ñ³÷. 27, 2017 11:17:27 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 11:17:27 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:17:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 11:17:34 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,719] milliseconds.
+ñ³÷. 27, 2017 11:17:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 7,049 ms
+ñ³÷. 27, 2017 11:17:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 11:17:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 2,999 ms
+ñ³÷. 27, 2017 11:17:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 11:17:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 291 ms
+ñ³÷. 27, 2017 11:17:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 11:17:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 165 ms
+ñ³÷. 27, 2017 11:17:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 11:17:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 214 ms
+ñ³÷. 27, 2017 11:17:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:17:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:17:38 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11070 ms
+ñ³÷. 27, 2017 11:18:16 AM org.apache.tomcat.websocket.pojo.PojoEndpointBase onError
+SEVERE: No error handling configured for [ChatServlet] and the following error occurred
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:286)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:572)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:495)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:67)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:204)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:203)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:93)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:635)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:120)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:281)
+	... 15 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:38)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:153)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:121)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:456)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:344)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:276)
+	... 15 more
+
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 11:36:51 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 11:36:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:36:52 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:715)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+ñ³÷. 27, 2017 11:36:52 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:715)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+ñ³÷. 27, 2017 11:36:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:36:52 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:715)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+ñ³÷. 27, 2017 11:36:52 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:715)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+ñ³÷. 27, 2017 11:36:52 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1520 ms
+ñ³÷. 27, 2017 11:36:52 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 11:36:52 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:36:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 11:36:58 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,329] milliseconds.
+ñ³÷. 27, 2017 11:36:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 6,005 ms
+ñ³÷. 27, 2017 11:36:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 11:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 1,386 ms
+ñ³÷. 27, 2017 11:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 11:37:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 217 ms
+ñ³÷. 27, 2017 11:37:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 11:37:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 187 ms
+ñ³÷. 27, 2017 11:37:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 11:37:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 199 ms
+ñ³÷. 27, 2017 11:37:00 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8173 ms
+ñ³÷. 27, 2017 11:37:00 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:781)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:727)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+ñ³÷. 27, 2017 11:37:00 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:37:00 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:37:00 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 11:37:00 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:37:00 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:37:00 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:37:00 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:37:10 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 11:37:10 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:37:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:37:11 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 11:37:11 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:37:11 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:37:11 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:37:11 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 11:37:15 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 11:37:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:37:16 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:37:16 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1376 ms
+ñ³÷. 27, 2017 11:37:16 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 11:37:16 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:37:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 11:37:22 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [6,165] milliseconds.
+ñ³÷. 27, 2017 11:37:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 6,794 ms
+ñ³÷. 27, 2017 11:37:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 11:37:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 815 ms
+ñ³÷. 27, 2017 11:37:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 11:37:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 170 ms
+ñ³÷. 27, 2017 11:37:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 11:37:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 140 ms
+ñ³÷. 27, 2017 11:37:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 11:37:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 150 ms
+ñ³÷. 27, 2017 11:37:24 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:37:24 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:37:24 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8206 ms
+ñ³÷. 27, 2017 11:37:35 AM org.apache.tomcat.websocket.pojo.PojoEndpointBase onError
+SEVERE: No error handling configured for [ChatServlet] and the following error occurred
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:286)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:572)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:495)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:67)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:204)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:203)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:93)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:635)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:120)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:281)
+	... 15 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:38)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:153)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:121)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:456)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:344)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:276)
+	... 15 more
+
+ñ³÷. 27, 2017 11:39:51 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 11:39:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:39:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:39:51 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 11:39:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:39:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:39:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:39:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 11:40:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:40:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1360 ms
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:40:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 11:40:15 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,259] milliseconds.
+ñ³÷. 27, 2017 11:40:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,884 ms
+ñ³÷. 27, 2017 11:40:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 11:40:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 790 ms
+ñ³÷. 27, 2017 11:40:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 11:40:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 159 ms
+ñ³÷. 27, 2017 11:40:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 11:40:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 148 ms
+ñ³÷. 27, 2017 11:40:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 11:40:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 182 ms
+ñ³÷. 27, 2017 11:40:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:40:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:40:17 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7300 ms
+ñ³÷. 27, 2017 11:47:48 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 11:47:48 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:47:48 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:47:48 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 11:47:48 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:47:48 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:47:48 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:47:48 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 11:47:51 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 11:47:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:47:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:47:52 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2188 ms
+ñ³÷. 27, 2017 11:47:52 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 11:47:52 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:47:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 11:48:00 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [6,787] milliseconds.
+ñ³÷. 27, 2017 11:48:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 7,668 ms
+ñ³÷. 27, 2017 11:48:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 11:48:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 3,485 ms
+ñ³÷. 27, 2017 11:48:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 11:48:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 384 ms
+ñ³÷. 27, 2017 11:48:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 11:48:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 405 ms
+ñ³÷. 27, 2017 11:48:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 11:48:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 814 ms
+ñ³÷. 27, 2017 11:48:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:48:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:48:05 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 13167 ms
+ñ³÷. 27, 2017 11:48:18 AM org.apache.tomcat.websocket.pojo.PojoEndpointBase onError
+SEVERE: No error handling configured for [ChatServlet] and the following error occurred
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:286)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:572)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:495)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:67)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:204)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:203)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:93)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:635)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:120)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:281)
+	... 15 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:38)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:153)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:121)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:456)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:344)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:276)
+	... 15 more
+
+ñ³÷. 27, 2017 11:48:51 AM org.apache.tomcat.websocket.pojo.PojoEndpointBase onError
+SEVERE: No error handling configured for [ChatServlet] and the following error occurred
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:286)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:572)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:495)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:67)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:204)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:203)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:93)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:635)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:120)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:281)
+	... 15 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:38)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:153)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:121)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:456)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:344)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:276)
+	... 15 more
+
+ñ³÷. 27, 2017 11:55:04 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 11:55:04 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:55:04 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:55:04 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 11:55:04 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:55:04 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:55:04 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:55:04 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 11:55:06 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 11:55:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:55:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:55:07 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1345 ms
+ñ³÷. 27, 2017 11:55:07 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 11:55:07 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:55:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 11:55:12 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,221] milliseconds.
+ñ³÷. 27, 2017 11:55:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,814 ms
+ñ³÷. 27, 2017 11:55:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 11:55:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 827 ms
+ñ³÷. 27, 2017 11:55:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 11:55:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 178 ms
+ñ³÷. 27, 2017 11:55:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 11:55:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 143 ms
+ñ³÷. 27, 2017 11:55:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 11:55:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 180 ms
+ñ³÷. 27, 2017 11:55:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:55:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:55:14 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7291 ms
+ñ³÷. 27, 2017 11:56:10 AM org.apache.tomcat.websocket.pojo.PojoEndpointBase onError
+SEVERE: No error handling configured for [ChatServlet] and the following error occurred
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:286)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:572)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:495)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:67)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:204)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:203)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:93)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:635)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:120)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:281)
+	... 15 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:38)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:153)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:121)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:456)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:344)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:276)
+	... 15 more
+
+ñ³÷. 27, 2017 11:56:57 AM org.apache.tomcat.websocket.pojo.PojoEndpointBase onError
+SEVERE: No error handling configured for [ChatServlet] and the following error occurred
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:286)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:572)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:495)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:67)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:204)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:203)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:93)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:635)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:120)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:281)
+	... 15 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:38)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:153)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:121)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:456)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:344)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:276)
+	... 15 more
+
+ñ³÷. 27, 2017 11:59:32 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 11:59:32 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:59:32 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:59:32 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 11:59:33 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:59:33 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:59:33 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:59:33 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 11:59:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:59:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1421 ms
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 11:59:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 11:59:41 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,265] milliseconds.
+ñ³÷. 27, 2017 11:59:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,867 ms
+ñ³÷. 27, 2017 11:59:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 11:59:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 828 ms
+ñ³÷. 27, 2017 11:59:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 11:59:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 170 ms
+ñ³÷. 27, 2017 11:59:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 11:59:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 208 ms
+ñ³÷. 27, 2017 11:59:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 11:59:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 143 ms
+ñ³÷. 27, 2017 11:59:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 11:59:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 11:59:43 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7363 ms
+ñ³÷. 27, 2017 12:00:01 PM org.apache.tomcat.websocket.pojo.PojoEndpointBase onError
+SEVERE: No error handling configured for [ChatServlet] and the following error occurred
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:286)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:572)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:495)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:67)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:204)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:203)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:93)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:635)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:120)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:281)
+	... 15 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:38)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:153)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:121)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:456)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:344)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:276)
+	... 15 more
+
+ñ³÷. 27, 2017 12:00:24 PM org.apache.tomcat.websocket.pojo.PojoEndpointBase onError
+SEVERE: No error handling configured for [ChatServlet] and the following error occurred
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:286)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:572)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:495)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:67)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:204)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:203)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:93)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:635)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:120)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:281)
+	... 15 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:38)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:153)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:121)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:456)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:344)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:276)
+	... 15 more
+
+ñ³÷. 27, 2017 12:02:42 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:02:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:02:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:02:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:02:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:02:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:02:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:02:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:02:45 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:02:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:02:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:02:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2501 ms
+ñ³÷. 27, 2017 12:02:47 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:02:47 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:02:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:02:55 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [7,021] milliseconds.
+ñ³÷. 27, 2017 12:02:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 7,892 ms
+ñ³÷. 27, 2017 12:02:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:02:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 3,383 ms
+ñ³÷. 27, 2017 12:02:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:02:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 492 ms
+ñ³÷. 27, 2017 12:02:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:02:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 282 ms
+ñ³÷. 27, 2017 12:02:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:02:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 406 ms
+ñ³÷. 27, 2017 12:02:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:02:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:02:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12826 ms
+ñ³÷. 27, 2017 12:03:37 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:03:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:03:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:03:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:03:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:03:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:03:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:03:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:03:56 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:03:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:03:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:03:57 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1421 ms
+ñ³÷. 27, 2017 12:03:57 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:03:57 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:03:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:04:03 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,404] milliseconds.
+ñ³÷. 27, 2017 12:04:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 6,211 ms
+ñ³÷. 27, 2017 12:04:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:04:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 1,373 ms
+ñ³÷. 27, 2017 12:04:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:04:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 198 ms
+ñ³÷. 27, 2017 12:04:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:04:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 221 ms
+ñ³÷. 27, 2017 12:04:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:04:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 364 ms
+ñ³÷. 27, 2017 12:04:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:04:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:04:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8595 ms
+ñ³÷. 27, 2017 12:45:40 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+ñ³÷. 27, 2017 12:45:40 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+ñ³÷. 27, 2017 12:45:40 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:146)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4138)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1539)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1512)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:222)
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:281)
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:143)
+	... 14 more
+
+ñ³÷. 27, 2017 12:45:40 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+ñ³÷. 27, 2017 12:45:40 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+ñ³÷. 27, 2017 12:45:42 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:45:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:45:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:45:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:45:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:45:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:45:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:45:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:45:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:45:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1325 ms
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:45:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:45:52 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,265] milliseconds.
+ñ³÷. 27, 2017 12:45:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,886 ms
+ñ³÷. 27, 2017 12:45:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 2,530 ms
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 207 ms
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 189 ms
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class ChatServlet and new endpoint is class webchat.ChatServlet
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:146)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class ChatServlet and new endpoint is class webchat.ChatServlet
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:222)
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:281)
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:143)
+	... 12 more
+
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 204 ms
+ñ³÷. 27, 2017 12:45:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:45:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:45:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9217 ms
+ñ³÷. 27, 2017 12:47:36 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:47:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:47:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:47:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:47:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:47:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:47:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:47:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:47:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:47:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1393 ms
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:47:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:47:46 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,283] milliseconds.
+ñ³÷. 27, 2017 12:47:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,877 ms
+ñ³÷. 27, 2017 12:47:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 832 ms
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 183 ms
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 146 ms
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:146)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:222)
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:281)
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:143)
+	... 12 more
+
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+ñ³÷. 27, 2017 12:47:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 225 ms
+ñ³÷. 27, 2017 12:47:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:47:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:47:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7417 ms
+ñ³÷. 27, 2017 12:48:48 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+ñ³÷. 27, 2017 12:48:48 PM org.apache.catalina.startup.HostConfig reload
+WARNING: Error during context [] restart
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1548)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1512)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> ChatServlet in servlet mapping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3429)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3404)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1438)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1364)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:888)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:388)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5522)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 11 more
+
+ñ³÷. 27, 2017 12:48:49 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:48:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:48:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:48:49 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:48:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:48:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:48:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:48:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:48:52 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:48:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:48:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:48:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1324 ms
+ñ³÷. 27, 2017 12:48:53 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:48:53 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:48:59 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,470] milliseconds.
+ñ³÷. 27, 2017 12:48:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 6,105 ms
+ñ³÷. 27, 2017 12:48:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 890 ms
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 172 ms
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 203 ms
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> ChatServlet in servlet mapping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3429)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3404)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1438)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1364)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:888)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:388)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5522)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:903)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 198 ms
+ñ³÷. 27, 2017 12:49:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:49:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:49:00 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7713 ms
+ñ³÷. 27, 2017 12:49:38 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:49:38 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:49:38 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:49:39 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:49:39 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:49:39 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:49:39 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:49:39 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:49:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:49:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:49:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1428 ms
+ñ³÷. 27, 2017 12:49:43 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:49:43 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:49:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:49:48 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,298] milliseconds.
+ñ³÷. 27, 2017 12:49:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,941 ms
+ñ³÷. 27, 2017 12:49:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:49:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 872 ms
+ñ³÷. 27, 2017 12:49:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:49:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 175 ms
+ñ³÷. 27, 2017 12:49:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:49:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 153 ms
+ñ³÷. 27, 2017 12:49:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:49:50 PM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> ChatServlet in servlet mapping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3429)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3404)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1438)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1364)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:888)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:388)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5522)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+ñ³÷. 27, 2017 12:49:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:903)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+ñ³÷. 27, 2017 12:49:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 202 ms
+ñ³÷. 27, 2017 12:49:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:49:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:49:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7501 ms
+ñ³÷. 27, 2017 12:50:40 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+ñ³÷. 27, 2017 12:50:40 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:50:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:50:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:50:40 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:50:40 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:146)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1548)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1512)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:222)
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:281)
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:143)
+	... 13 more
+
+ñ³÷. 27, 2017 12:50:40 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+ñ³÷. 27, 2017 12:50:41 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:50:41 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:50:41 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:50:41 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:50:44 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:50:44 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1538 ms
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:50:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:50:50 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,273] milliseconds.
+ñ³÷. 27, 2017 12:50:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,901 ms
+ñ³÷. 27, 2017 12:50:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:50:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 826 ms
+ñ³÷. 27, 2017 12:50:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:50:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 255 ms
+ñ³÷. 27, 2017 12:50:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:50:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 157 ms
+ñ³÷. 27, 2017 12:50:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:50:52 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class ChatServlet and new endpoint is class webchat.ChatServlet
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:146)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class ChatServlet and new endpoint is class webchat.ChatServlet
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:222)
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:281)
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:143)
+	... 12 more
+
+ñ³÷. 27, 2017 12:50:52 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+ñ³÷. 27, 2017 12:50:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 211 ms
+ñ³÷. 27, 2017 12:50:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:50:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:50:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7537 ms
+ñ³÷. 27, 2017 12:52:56 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:52:56 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:52:56 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:52:56 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:52:56 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:52:56 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:52:56 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:52:56 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:52:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:52:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1392 ms
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:52:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:53:05 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,251] milliseconds.
+ñ³÷. 27, 2017 12:53:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,858 ms
+ñ³÷. 27, 2017 12:53:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:53:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 782 ms
+ñ³÷. 27, 2017 12:53:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:53:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 186 ms
+ñ³÷. 27, 2017 12:53:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:53:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 157 ms
+ñ³÷. 27, 2017 12:53:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:53:06 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class ChatServlet and new endpoint is class webchat.ChatServlet
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:146)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class ChatServlet and new endpoint is class webchat.ChatServlet
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:222)
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:281)
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:143)
+	... 12 more
+
+ñ³÷. 27, 2017 12:53:06 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+ñ³÷. 27, 2017 12:53:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 206 ms
+ñ³÷. 27, 2017 12:53:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:53:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:53:07 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7309 ms
+ñ³÷. 27, 2017 12:54:27 PM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+ñ³÷. 27, 2017 12:54:27 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:146)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1548)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1512)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:222)
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:281)
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:143)
+	... 13 more
+
+ñ³÷. 27, 2017 12:54:27 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+ñ³÷. 27, 2017 12:54:31 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:54:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:54:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:54:31 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:54:31 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:54:31 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:54:31 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:54:31 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:54:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:54:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1351 ms
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:54:34 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:54:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:54:40 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,307] milliseconds.
+ñ³÷. 27, 2017 12:54:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,942 ms
+ñ³÷. 27, 2017 12:54:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:54:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 856 ms
+ñ³÷. 27, 2017 12:54:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:54:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 174 ms
+ñ³÷. 27, 2017 12:54:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:54:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 192 ms
+ñ³÷. 27, 2017 12:54:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:54:42 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:146)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1260)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path [/ws] : existing endpoint was class webchat.ChatServlet and new endpoint is class ChatServlet
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:222)
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:281)
+	at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:143)
+	... 12 more
+
+ñ³÷. 27, 2017 12:54:42 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+ñ³÷. 27, 2017 12:54:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 212 ms
+ñ³÷. 27, 2017 12:54:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:54:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:54:42 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7564 ms
+ñ³÷. 27, 2017 12:55:31 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+ñ³÷. 27, 2017 12:55:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:55:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:55:31 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+ñ³÷. 27, 2017 12:55:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:55:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:55:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:55:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 18 2017 20:54:42 UTC
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.75.0
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8.1
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.3
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_111
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_111-b14
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Java\tomcat\apache-tomcat-7.0.75\conf\logging.properties
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Java\tomcat\apache-tomcat-7.0.75\endorsed
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Java\tomcat\apache-tomcat-7.0.75
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Java\tomcat\apache-tomcat-7.0.75\temp
+ñ³÷. 27, 2017 12:55:35 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\sql\product\11.2.0\client_1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GCC\bin;C:\Program Files (x86)\Python27\Scripts;C:\Program Files (x86)\Python27\Graphviz2.38\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Windows;C:\Windows\System32;E:\Program files\mysql-5.6.30-winx64\bin\mysql.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;E:\Semestr_5\C\GNU\bin;C:\Program Files (x86)\Python34\Scripts;E:\Java\Android;E:\Java\Android\sdk;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;E:\Semestr_5\Git\HashiCorp\Vagrant\bin;C:\C\flex;C:\C\zestaw6\SDL2-2.0.5;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\Python27;.
+ñ³÷. 27, 2017 12:55:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:55:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:55:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1339 ms
+ñ³÷. 27, 2017 12:55:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+ñ³÷. 27, 2017 12:55:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.75
+ñ³÷. 27, 2017 12:55:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs
+ñ³÷. 27, 2017 12:55:42 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,348] milliseconds.
+ñ³÷. 27, 2017 12:55:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\docs has finished in 5,952 ms
+ñ³÷. 27, 2017 12:55:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples
+ñ³÷. 27, 2017 12:55:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\examples has finished in 910 ms
+ñ³÷. 27, 2017 12:55:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager
+ñ³÷. 27, 2017 12:55:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\host-manager has finished in 191 ms
+ñ³÷. 27, 2017 12:55:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager
+ñ³÷. 27, 2017 12:55:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\manager has finished in 176 ms
+ñ³÷. 27, 2017 12:55:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT
+ñ³÷. 27, 2017 12:55:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Java\tomcat\apache-tomcat-7.0.75\webapps\ROOT has finished in 158 ms
+ñ³÷. 27, 2017 12:55:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+ñ³÷. 27, 2017 12:55:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+ñ³÷. 27, 2017 12:55:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7524 ms

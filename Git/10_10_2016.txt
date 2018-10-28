@@ -1,0 +1,5 @@
+Install Git
+1. Git for Windows installer
+2. go to command prompt
+3.  git config --global user.name "Andrii Vodvud"
+    git config --global user.email "andrii.vodvud@smcebi.edu.pl"

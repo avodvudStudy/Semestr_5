@@ -1,0 +1,10 @@
+https://uk.wikipedia.org/wiki/Chmod
+
+chmod u=rwx,g=rwx,o=rwx file.txt
+
+mkdir -m 777 dirname
+sudo chmod -R 777 /var/www
+
+sudo poweroff
+sudo reboot
+sudo shutdown -h now 

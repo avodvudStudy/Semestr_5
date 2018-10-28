@@ -1,0 +1,1 @@
+javadoc -d E:\Semestr_5\Java\test E:\Java\workspace\czwiczeniePierwsze\src\czwiczeniePierwsze\Prostokat.java E:\Java\workspace\czwiczeniePierwsze\src\czwiczeniePierwsze\Okrag.java E:\Java\workspace\czwiczeniePierwsze\src\czwiczeniePierwsze\Punkt.java

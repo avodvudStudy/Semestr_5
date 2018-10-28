@@ -1,0 +1,107 @@
+
+CREATE OR REPLACE TRIGGER WithDate
+AFTER INSERT OR UPDATE OR DELETE ON pracownik
+declare
+starting date;
+ending date;
+current date;
+
+BEGIN
+   select TO_DATE('2016/11/20', 'yyyy/mm/dd') into starting from dual;
+   select TO_DATE('2016/11/30', 'yyyy/mm/dd') into ending from dual;
+   SELECT SYSDATE into current FROM DUAL;
+
+   if (current between starting and ending) then
+	dbms_output.put_line('ok');
+
+   IF DELETING THEN 
+        raise_application_error(-20000, 'Nie wolno usuwac');
+   END IF;
+
+   IF INSERTING THEN 
+        raise_application_error(-20001, 'Nie wolno wstawiac');
+   END IF;
+
+   IF UPDATING THEN 
+        raise_application_error(-20002, 'Nie wolno aktualizowac');
+   END IF; 
+
+   end if;   
+
+END;
+/
+
+
+update pracownik 
+	set nrprac=10
+	where nrprac = 1;
+
+
+
+CREATE OR REPLACE TRIGGER seq
+BEFORE INSERT OR UPDATE ON pracownik
+FOR EACH ROW
+WHEN (NEW.nrprac > 0)
+declare 
+counter number;
+
+BEGIN
+   LOOP
+   
+   SELECT COUNT(*) INTO counter
+   FROM pracownik
+   WHERE nrprac = :NEW.nrprac;
+
+   if counter > 0 then
+	select test.nextval into :NEW.nrprac from dual;
+   else
+	exit;
+   end if;
+
+   end LOOP;
+	
+
+
+   dbms_output.put_line('Old number: ' || :OLD.nrprac);
+   dbms_output.put_line('New number: ' || :NEW.nrprac);
+END;
+/
+
+
+
+insert into pracownik(nrprac, imie, nazwisko, email)
+values(test.nextval, 'Jan', 'Medrek', 'jan.mendrek@smcebi.edu.pl');
+
+
+
+CREATE OR REPLACE TRIGGER security_prac_real
+BEFORE DELETE ON pracownik
+FOR EACH ROW
+declare 
+stan number;
+
+BEGIN
+
+   select count(nrprac) into stan 
+   from realizacja 
+   where nrprac = :OLD.nrprac;
+	
+   if ( stan > 0 ) then 
+	raise_application_error(-20010, 'Nie mozna usuwac, parent table');
+   end if;
+	
+   dbms_output.put_line('Old number: ' || :OLD.nrprac);
+   dbms_output.put_line('Operacja udana');
+END;
+/
+
+
+alter table realizacja
+drop constraint fk_pracreal;
+
+delete from pracownik
+where nrprac = 2;
+
+alter table realizacja
+add constraint fk_pracreal FOREIGN KEY (nrprac)
+REFERENCES pracownik(nrprac);

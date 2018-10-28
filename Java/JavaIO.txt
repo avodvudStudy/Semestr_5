@@ -1,0 +1,31 @@
+
+import java.io.*;
+
+BufferedReader br=new BufferedReader(new InputStreamReader(System.in)); 
+	String str1=br.readLine();
+	double x=Double.parseDouble(str); 
+
+PrintWriter plik1=new PrintWriter(new BufferedWriter(new FileWriter("plik.txt",true))); 
+	         plik1.println(imie+" "+nazwisko);                                                       
+	         plik1.close(); 
+
+BufferedReader plik2=new BufferedReader(new FileReader("plik.txt"));                    
+	         String str;                                                                             
+	                                                                                                 
+	         while(plik2.ready())                                                                    
+	         {                                                                                       
+	            str=plik2.readLine();                                                                
+	            System.out.println(str);                                                             
+	         }                                                                                       
+	                                                                                                 
+	         plik2.close();  
+
+ObjectOutputStream out=new ObjectOutputStream(new CipherOutputStream(new FileOutputStream("plikSzyfrowany.txt"),c1));
+	      out.writeObject(new String(str)); 
+	      out.flush();                                                                                                
+	      out.close(); 
+
+
+ObjectInputStream in=new ObjectInputStream(new CipherInputStream(new FileInputStream("plikSzyfrowany.txt"),c2));   
+	      String strRead=(String)in.readObject();   
+	      in.close();

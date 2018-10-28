@@ -1,0 +1,34 @@
+
+declare
+x varchar2(100);
+y varchar2(100);
+
+begin
+x := 'insert into pracownik (nrprac, imie, nazwisko)
+	values (8, ''Ariel'', ''Rzepecki'')';
+
+dbms_output.put_line(x);
+
+execute immediate 'delete from pracownik where nrprac = 8';
+
+execute immediate x;
+
+end;
+/
+
+
+DECLARE
+x varchar2(50);
+
+BEGIN
+execute immediate   'create table tabela(id number, i number, opis varchar2(20))';  
+execute immediate   'insert into tabela values (1, 5, ''opis1'')';
+execute immediate   'insert into tabela values (2, 8, ''opis2'')';
+execute immediate   'insert into tabela values (3, 4, ''opis3'')';
+execute immediate   'insert into tabela values (4, 7, ''opis4'')';
+execute immediate   'update tabela set opis=''nowy opis'' where id = 4';
+execute immediate   'alter table tabela add tmp varchar2(20)';
+execute immediate   'alter table tabela drop column tmp';
+execute immediate   'delete from tabela where id=4';
+END;
+/

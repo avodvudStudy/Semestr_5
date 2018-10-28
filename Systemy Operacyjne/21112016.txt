@@ -1,0 +1,22 @@
+
+./t-1
+export PATH = $PATH:.
+t-1
+
+bash -x t2
+     -xv
+
+#!/bin/bash
+if [ "$#" -eq 0 ]
+then
+echo "ok"
+fi
+echo a
+read X
+echo "Oddaje" + X
+read Y
+expr X + Y
+
+
+which [
+[ x ] ; echo $7

@@ -1,0 +1,7 @@
+DECLARE
+ret number;
+BEGIN
+   ret := pack.insertPracownik(8, 'Nikita', 'Burkowski', 'nikita.burkowski@smcebi.edu.pl');
+   dbms_output.put_line(ret);
+END;
+/

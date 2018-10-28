@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ -d "$1" ]; then
+	spis=`ls $1`
+	count=0
+	echo "nazwa katalogu $1"
+	for nazwa in $spis
+	do
+		if [ -d $nazwa ]; then
+			./opisKatalogu $nazwa
+		else
+			count=$((count+1))
+			echo $nazwa
+		fi
+	done
+	echo ""
+	echo $count
+	echo ""
+fi
+

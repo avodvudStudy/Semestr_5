@@ -1,0 +1,23 @@
+
+git log -p //ostatni comity
+	--graph
+	--stat
+	...
+
+1. mkdir repository
+2. cd repository
+3. git clone https://andvod@bitbucket.org/andvod/repos1710remote.git
+4. cd repos1710remote
+5. echo "Hello world" >> HelloWorld.py
+6. git branch b1
+7. git checkout b1
+8. touch program.py
+9. vim program.py >> something text >> wq!
+10. git add program.py
+11. git commit -m "Add file with Python's extension"
+12. git checkout master
+13. git merge b1
+14. git branch -d b1
+15. git push --all
+
+

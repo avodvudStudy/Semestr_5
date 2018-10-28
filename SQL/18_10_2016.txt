@@ -1,0 +1,61 @@
+
+login: RT_AVODVUD@umain
+password: xyz123
+
+1. grant all on pracownik to RT_SKARELIN;
+2. select * from RT_AVODVUD.pracownik;
+3. select table_name from user_tables;
+4. grant select on realizacja to RT_SKARELIN;
+5. revoke all on pracownik from RT_SKARELIN;
+6. create synonym prac for rt_avodvud.pracownik;
+
+begin
+null;
+end;
+/
+
+begin
+DBMS_output.put_line(' ');
+end;
+/
+
+declare
+x varchar(20);
+begin
+x := 'Hello world';
+DBMS_output.put_line(x);
+end;
+/
+
+declare
+x varchar(20);
+begin
+for 
+x := 'Hello world';
+DBMS_output.put_line(x);
+end;
+/
+
+DECLARE
+   a number(2);
+BEGIN
+   FOR a in 10 .. 20 LOOP
+       dbms_output.put_line('value of a: ' || a);
+  END LOOP;
+END;
+/
+
+declare
+a varchar(20);
+begin
+select nazwisko into a 
+from pracownik
+where nrprac = 1;
+DBMS_output.put_line(a);
+end;
+/
+
+@C:\Users\andrii.vodvud\Desktop\declar.txt
+
+ALTER USER RT_AVodvud IDENTIFIED BY vodvud10;
+

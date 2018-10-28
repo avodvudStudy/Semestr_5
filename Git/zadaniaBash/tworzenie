@@ -1,0 +1,30 @@
+#!/bin/bash
+
+blad="nie dobrze wybrana opcja komendy"
+zmiena=""
+count=0
+
+for x in $@
+do
+if [ "$x" != "$1" ]; then
+	count=$[count + 1]	#jesli count == 1 to x == 2'mu argumentowi 
+				#pomaga przy powtarzaniu argumentow 
+
+	case $1 in
+ 		"joined") zmiena="$zmiena$x" ;;
+		"underline") zmiena=$(echo ${zmiena}_${x}) ;;
+		"uppercase") zmiena=$(echo ${zmiena}_${x}) 
+		zmiena=${zmiena^^};;
+		"dashes") zmiena="$zmiena-$x" ;;
+		*) echo "$blad" 
+		break
+	esac
+
+	if [ $count == 1 ]; then #blok pomocniczy, redukuje mozliwy 
+		zmiena=$2	 #nipotrzebni znaki
+	fi
+fi
+done
+
+echo ${zmiena}
+

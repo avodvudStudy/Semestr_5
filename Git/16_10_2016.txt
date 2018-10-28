@@ -1,0 +1,25 @@
+https://confluence.atlassian.com/bitbucket/pull-changes-from-your-git-repository-on-bitbucket-cloud-750395754.html
+
+Clone your repository to your local system
+1. cd ~
+2. mkdir repos
+3. cd ~/repos
+4. git clone https://andvod@bitbucket.org/andvod/repository.git
+5. ls
+
+Add a file to your local repository and put it on Bitbucket
+1. cd ~/repos/bitbucketstationlocations/
+2. echo "Earth's Moon" >> locations.txt
+3. git status 
+4. git add locations.txt
+5. git status 
+6. git commit -m 'Initial commit' 
+7. git push origin master 
+8. on BitBucket
+
+Create a file in Bitbucket
+
+Pull changes from a remote repository
+1. cd repos/repository/
+2. git pull --all
+3. ls

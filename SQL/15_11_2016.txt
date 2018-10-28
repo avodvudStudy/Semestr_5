@@ -1,0 +1,111 @@
+
+create or replace procedure writeRecord(row in pracownik%rowtype)
+as
+BEGIN
+    INSERT INTO pracownik
+    VALUES row;
+  COMMIT;
+END;
+/
+
+
+declare
+row pracownik%rowtype;
+
+begin
+	
+   row.nrprac  := 7;
+   row.imie := 'Nuha'; 
+   row.nazwisko := 'Ali';
+   row.email := 'nura.ali@smcebi.edu.pl';
+
+    writeRecord(row);
+end;
+/
+
+
+select count(1) from pracownik;
+
+
+grant execute on writeRecord to RT_SKARELIN;
+
+grant all on pracownik to RT_SKARELIN;
+
+
+
+begin
+	begin
+		raise no_data_found;
+	exception
+		when no_data_found then
+			RAISE too_many_rows;
+		when too_many_rows then
+			raise_application_error(-20000, 'n2');
+		when others then
+			raise_application_error(-20000, 'n3');
+	end;
+
+EXCEPTION
+   WHEN no_data_found THEN
+      raise_application_error(-20000, 'n4');
+   WHEN too_many_rows THEN
+      raise_application_error(-20000, 'n5');
+   WHEN others THEN
+      raise_application_error(-20000, 'n6');
+end;
+/
+
+
+
+DECLARE
+   name pracownik.imie%TYPE;
+   v_code NUMBER;
+   v_errm VARCHAR2(64);
+BEGIN
+   SELECT imie INTO name FROM pracownik WHERE nrprac = 1000;
+   EXCEPTION
+      WHEN OTHERS THEN
+         v_code := SQLCODE;
+         v_errm := SUBSTR(SQLERRM, 1 , 64);
+         DBMS_OUTPUT.PUT_LINE('The error code is ' || v_code || '- ' || v_errm);
+END;
+/
+
+
+
+DECLARE
+   name pracownik.imie%TYPE;
+BEGIN
+   SELECT imie INTO name FROM pracownik WHERE nrprac = 1000;
+   EXCEPTION
+      WHEN NO_DATA_FOUND THEN
+         DBMS_OUTPUT.PUT_LINE('error is: ' || sqlerrm);
+END;
+/
+
+
+
+
+DECLARE
+   my_exception EXCEPTION;
+BEGIN
+   raise my_exception;
+   EXCEPTION
+      WHEN my_exception THEN
+          DBMS_OUTPUT.PUT_LINE('My exception was called');
+END;
+/
+	
+
+
+
+create or replace type pracownikRecord is object
+      (nrprac int,
+       imie varchar2(50),
+       nazwisko varchar2(100),
+       email varchar2(100));
+
+/
+
+
+

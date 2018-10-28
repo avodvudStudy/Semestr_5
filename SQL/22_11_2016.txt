@@ -1,0 +1,99 @@
+
+create sequence test
+	minvalue 1
+	maxvalue 9999
+	start with 1
+	increment by 1;
+
+drop sequence test;
+
+
+// Function and procedure can't execute operations DML
+
+create or replace FUNCTION seq(x in number) return number is retIn number;
+    begin
+        for i in 1..x loop
+		procSeq;
+	end loop;
+	return 0;
+    end;
+/
+
+
+CREATE OR REPLACE PROCEDURE procSeq
+AS
+
+BEGIN
+	insert into pracownik(nrprac)
+	values (test.nextval);
+END;
+/
+
+
+
+
+CREATE OR REPLACE TRIGGER seq
+BEFORE INSERT OR UPDATE ON pracownik
+FOR EACH ROW
+WHEN (NEW.nrprac > 0)
+
+BEGIN
+   --sal_diff := :NEW.salary  - :OLD.salary;
+   dbms_output.put_line('Old number: ' || :OLD.nrprac);
+   dbms_output.put_line('New number: ' || :NEW.nrprac);
+   --dbms_output.put_line('Salary difference: ' || sal_diff);
+END;
+/
+
+
+
+
+update pracownik 
+	set nrprac=test.nextval
+	where nrprac in (
+		select nrprac from pracownik);
+
+
+
+CREATE OR REPLACE TRIGGER seq
+BEFORE INSERT OR UPDATE ON pracownik
+FOR EACH ROW
+WHEN (NEW.nrprac > 0)
+declare
+	numer number ;
+BEGIN	
+	if :new.nrprac is null then
+		select test.nextval into :new.nrprac from dual;
+	end if;
+	
+
+   dbms_output.put_line('Old number: ' || :OLD.nrprac);
+   dbms_output.put_line('New number: ' || :NEW.nrprac);
+   --dbms_output.put_line('Salary difference: ' || sal_diff);
+END;
+/
+
+
+create or replace FUNCTION include(x in number) return number is ret number;
+    begin
+        declare 
+		cursor pracownicy is
+		select nrprac from pracownik;
+	begin
+		for n in pracownicy loop
+			--dbms_output.put_line(n.imie);
+			if x = n.nrprac then
+				ret := -1;
+				return ret;
+			end if;
+		end loop;
+		ret := 0;
+		return ret;
+	end;
+    end;
+/	
+
+
+
+
+

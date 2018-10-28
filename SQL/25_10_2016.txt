@@ -1,0 +1,144 @@
+
+set serveroutput on
+@C:\Users\student\Downloads\plik.txt
+
+
+declare
+a int;
+print varchar(10);
+
+begin
+select count(nazwisko) into a 
+from pracownik
+where nrprac = 1;
+
+if a = 1 then
+    print := 'ok';
+elsif a < 1 then
+    print := 'zamalo';
+else 
+    print := 'zaduzo';
+end if;
+
+DBMS_output.put_line(print);
+end;
+/
+
+
+declare
+a int;
+print varchar(20);
+
+begin
+select print into a 
+from pracownik;
+--where nrprac = 1;
+
+EXCEPTION
+    WHEN TOO_MANY_ROWS THEN
+    DBMS_OUTPUT.PUT_LINE ('Zaduzo wierszy.');
+
+
+DBMS_output.put_line(print);
+end;
+/
+
+
+declare
+a int;
+print varchar(20);
+
+begin
+select print into a 
+from pracownik
+where nrprac = 0;
+
+EXCEPTION
+    WHEN TOO_MANY_ROWS THEN
+    DBMS_OUTPUT.PUT_LINE ('Zaduzo wierszy.');
+    WHEN NO_DATA_FOUND THEN
+    DBMS_OUTPUT.PUT_LINE ('Zamalo wierszy.');
+
+DBMS_output.put_line(print);
+end;
+/
+
+
+declare
+a int;
+n int;
+
+begin
+    a := 5;
+    n := 1;
+    FOR i in 2 .. a LOOP
+        n := n*i;
+    END LOOP;
+
+DBMS_output.put_line(n);
+end;
+/
+
+
+declare
+a int;
+n int;
+
+begin
+    a := 10;
+    n := 1;
+    FOR i in 1 .. a LOOP
+        n := n*i;
+	INSERT INTO SILNIA(X_NUMBER, Y_NUMBER)
+	VALUES(i, n);
+    END LOOP;
+
+DBMS_output.put_line(n);
+end;
+/
+
+
+declare
+a int;
+n int;
+n1 number;
+ret int;
+x number;
+
+FUNCTION s(x in number) return number is n1 number;
+    begin
+        n1 := 1;
+        FOR i in 1 .. x LOOP
+            n1 := n1*i;
+	    INSERT INTO SILNIA(X_NUMBER, Y_NUMBER)
+	    VALUES(i, n1);
+        END LOOP;
+	return (n1);
+    end;
+
+begin
+    n := 10;
+    ret := s(n);
+
+    DBMS_output.put_line(ret);
+end;
+/
+
+
+show errors
+
+
+create or replace FUNCTION s(x in number) return number is n1 number;
+    begin
+        n1 := 1;
+        FOR i in 1 .. x LOOP
+            n1 := n1*i;
+	    INSERT INTO SILNIA(X_NUMBER, Y_NUMBER)
+	    VALUES(i, n1);
+        END LOOP;
+	return (n1);
+    end;
+/
+
+
+select s(5) from dual;

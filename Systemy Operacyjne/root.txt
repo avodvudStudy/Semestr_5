@@ -1,0 +1,4 @@
+sudo passwd root
+"vodvud10"
+su root
+su andrii

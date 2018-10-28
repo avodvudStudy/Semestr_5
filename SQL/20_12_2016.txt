@@ -1,0 +1,111 @@
+
+create table pracownik_backup(
+new_nrprac number,
+new_imie varchar(100),
+new_nazwisko varchar(100),
+new_email varchar(150),
+DML varchar(10),
+old_nrprac number,
+old_imie varchar(100),
+old_nazwisko varchar(100),
+old_email varchar(150));
+
+
+
+CREATE OR REPLACE TRIGGER pracownik_trigger_pragma
+BEFORE INSERT OR UPDATE OR DELETE ON RT_AVODVUD.pracownik
+for each row 
+declare
+
+PRAGMA AUTONOMOUS_TRANSACTION;
+
+BEGIN
+	IF INSERTING THEN
+		insert into RT_AVODVUD.pracownik_backup(new_nrprac, new_imie,
+				new_nazwisko, new_email, DML)
+		values( :new.nrprac, :new.imie, :new.nazwisko, :new.email, 'insert');  
+	ELSIF UPDATING THEN
+		insert into RT_AVODVUD.pracownik_backup(new_nrprac,
+			new_imie, new_nazwisko, new_email, DML, old_nrprac, 
+			old_imie, old_nazwisko, old_email)
+		values( :new.nrprac, :new.imie, :new.nazwisko, :new.email,
+			'update', :old.nrprac, :old.imie, :old.nazwisko, :old.email);
+	ELSIF DELETING THEN
+		insert into RT_AVODVUD.pracownik_backup( DML, old_nrprac, 
+			old_imie, old_nazwisko, old_email)
+		values( 'delete', :old.nrprac, :old.imie, :old.nazwisko, :old.email);
+	END IF;
+	commit;
+
+END;
+/
+
+
+
+delete from pracownik where nrprac = 7;
+
+
+grant all on pracownik to RT_SKARELIN;
+
+
+alter table pracownik_backup
+add user_name varchar(100);
+
+
+SELECT distinct name FROM ALL_OBJECTS WHERE OBJECT_TYPE IN ('FUNCTION','PROCEDURE','PACKAGE');
+
+
+create or replace type mytable as object(
+		nrprac number,
+		imie varchar(100));
+/
+
+
+create or replace package pack as
+	procedure showPracownik; 
+	function insertPracownik(nrpracFunc in pracownik.nrprac%type,
+		imieFunc in pracownik.imie%type, 
+		nazwiskoFunc in pracownik.nazwisko%type, 
+		emailFunc in pracownik.email%type) return number;
+END pack;
+/
+
+
+create or replace package body pack as
+	procedure showPracownik as 
+		cursor c_pracownik is
+			select * from pracownik;
+		row pracownik%rowtype;
+	begin
+		open c_pracownik;
+		loop
+			fetch c_pracownik into row;
+			exit when c_pracownik%notfound;
+			dbms_output.put_line(row.nrprac || '  ' || row.imie || '  ' 
+				|| row.nazwisko || '  ' || row.email );
+		end loop;
+		close c_pracownik;
+	end showPracownik;
+
+	function insertPracownik(nrpracFunc in pracownik.nrprac%type,
+		imieFunc in pracownik.imie%type, 
+		nazwiskoFunc in pracownik.nazwisko%type, 
+		emailFunc in pracownik.email%type) 
+				return number is
+		begin 
+			insert into pracownik(nrprac, imie, nazwisko, email)
+			values( nrpracFunc, imieFunc, 
+				nazwiskoFunc, emailFunc );
+			return 0;
+	end insertPracownik;
+END pack;
+/
+
+
+DECLARE
+ret number;
+BEGIN
+   ret := pack.insertPracownik(8, 'Nikita', 'Burkowski', 'nikita.burkowski@smcebi.edu.pl');
+   dbms_output.put_line(ret);
+END;
+/

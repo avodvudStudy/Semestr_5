@@ -1,0 +1,84 @@
+
+select * from user_source;
+
+
+select text 
+  from user_source u 
+ where u.type = 'FUNCTION' 
+   and u.name = 'SILNIAREC' 
+ order by line asc;
+
+
+
+create or replace FUNCTION silniaRec(x in number) return number is retIn number;
+    begin
+        if x <= 1 THEN
+		retIn := 1;
+		return retIn;
+	else
+		retIn := x * silniaRec(x-1);
+		return retIn;
+	end if;
+    end;
+/
+
+
+select silniarec(5) from dual;
+
+
+select text 
+  from user_source u 
+ where u.type = 'PROCEDURE' 
+   and u.name = 'GREETINGS' 
+ order by line asc;
+
+
+
+CREATE OR REPLACE PROCEDURE greetings(a in number)
+AS
+
+BEGIN
+   dbms_output.put_line(a);
+END;
+/
+
+
+create or replace FUNCTION silniaRec(x in number) return number is retIn number;
+    begin
+        if x <= 1 THEN
+		retIn := 1;
+		greetings(retIn);
+		return retIn;
+	else
+		retIn := x * silniaRec(x-1);
+		greetings(retIn);
+		return retIn;
+	end if;
+    end;
+/
+
+
+create or replace PROCEDURE showTable (x in number) 
+AS
+    begin
+	DBMS_OUTPUT.PUT_LINE (x);
+    end;
+/
+
+
+create or replace FUNCTION silniashow (a in varchar2) return number is retIn number;
+    declare 
+	a number;
+
+    begin
+	DBMS_OUTPUT.PUT_LINE (a);
+
+	select Y_munber into a 
+	from silnia
+	where nrprac = 5;
+        showTable(a);
+    end;
+/
+
+
+

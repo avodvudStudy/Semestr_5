@@ -1,0 +1,24 @@
+
+$ tty - port
+$ ps u - procesor user 
+     x - nie user
+     a - all
+   -ef - PID (processor id)
+
+PID = 1 - procesor init
+
+top		!q
+
+			dyskryptor
+ps	fd	stan	sign 	
+xxx	0	input	 +	keyboard
+xxx	1	output   +	console
+xxx	2	error	 -	console
+
+xxx	&   bg - procces background
+xxx	&   fg - procces front
+
+$ jobs    %1
+$ xxx   j   yyy
+$ xxx   &&  yyy
+$ xxx   ||  yyy

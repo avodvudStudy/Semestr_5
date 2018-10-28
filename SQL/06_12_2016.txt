@@ -1,0 +1,141 @@
+
+CREATE VIEW InsteadView
+AS SELECT nrprac, imie, nazwisko, email
+FROM pracownik;
+
+
+
+insert into InsteadView(nrprac, imie, nazwisko, email)
+values (4, 'Serhii', 'Karelin', 'srhii.karelin@smcebi.edu.pl');
+
+
+CREATE VIEW PracownikRealizacja
+AS SELECT p.nrprac, p.imie, r.stanowisko
+FROM pracownik p, realizacja r
+where p.nrprac = r.nrprac;
+
+
+--error can't insert to view, that contains two tables
+
+insert into PracownikRealizacja(pracownik.nrprac, pracownik.imie,
+ realizacja.stanowisko)
+values (5, 'Andrii', 'student');
+
+
+CREATE or replace TRIGGER InsteadTrigger
+INSTEAD OF INSERT on InsteadView
+for each row
+BEGIN
+  --Build an INSERT statement ignoring imie
+  INSERT INTO pracownik(nrprac, imie, nazwisko)
+	values (:NEW.nrprac, :NEW.imie, :NEW.nazwisko);
+END;
+/
+
+insert into InsteadView(nrprac, imie, nazwisko, email)
+values (5, 'Andrii', 'Vodvud', 'andrii.vodvud@smcebi.edu.pl');
+
+
+CREATE or replace TRIGGER PracRealTrigger
+INSTEAD OF INSERT on PracownikRealizacja
+for each row
+BEGIN
+	insert into pracownik(nrprac, imie, nazwisko, email)
+	values(:NEW.nrprac, :NEW.imie, 'default', 'default');
+
+	insert into realizacja(nrprac, idproj, termin_rozpoczecia,
+	termin_zakonczenia, stanowisko, wynagrodzenie)
+	values(6, 1, SYSDATE, SYSDATE, :NEW.stanowisko, 0);
+
+END;
+/
+
+
+insert into PracownikRealizacja(nrprac, imie, stanowisko)
+values (6, 'Arek', 'student');
+
+
+
+CREATE OR REPLACE PROCEDURE CursorPracownik
+AS
+
+   c_nrprac pracownik.nrprac%type;
+   c_imie pracownik.imie%type;
+   c_nazwisko pracownik.nazwisko%type;
+   CURSOR c_pracownik is
+      SELECT nrprac, imie, nazwisko FROM pracownik;
+BEGIN
+   OPEN c_pracownik;
+   LOOP
+      FETCH c_pracownik into c_nrprac, c_imie, c_nazwisko;
+      EXIT WHEN c_pracownik%notfound;
+      dbms_output.put_line(c_nrprac || ' ' || c_imie || ' ' || c_nazwisko);
+   END LOOP;
+   CLOSE c_pracownik;
+END;
+/
+
+
+--CURSORS
+
+
+CREATE OR REPLACE PROCEDURE CursorPracownik
+AS
+
+   CURSOR c_pracownik is
+      SELECT * FROM pracownik;
+   row pracownik%rowtype;
+
+BEGIN
+   OPEN c_pracownik;
+   LOOP
+      FETCH c_pracownik into row;
+      EXIT WHEN c_pracownik%notfound;
+      insert into RT_SKARELIN.pracownik_andrii(nrprac, imie, nazwisko)
+      values(row.nrprac, row.imie, row.nazwisko);
+	
+      dbms_output.put_line(row.nrprac || ' ' || row.imie || ' ' 
+	|| row.nazwisko);
+
+   END LOOP;
+   CLOSE c_pracownik;
+END;
+/
+
+
+CREATE OR REPLACE TRIGGER grant_pracownik_andrii
+BEFORE INSERT OR UPDATE OR DELETE ON RT_SKARELIN.pracownik_andrii
+for each row
+when (NEW.nrprac > 0)
+declare
+counter number;
+--PRAGMA AUTONOMOUS_TRANSACTION;
+
+BEGIN
+   IF DELETING THEN 
+        raise_application_error(-20000, 'Nie wolno usuwac');
+   END IF;
+
+   IF INSERTING THEN 
+
+	select count(*) 
+	into counter 
+	from RT_SKARELIN.pracownik_andrii
+	where :NEW.nrprac = nrprac;
+	
+	if (counter > 0) then
+        	raise_application_error(-20001, 'Nie wolno wstawiac, indeks juz istnieje');
+	end if;
+   END IF;
+
+   IF UPDATING THEN 
+        raise_application_error(-20002, 'Nie wolno aktualizowac');
+   END IF;   
+
+END; 
+
+/
+
+
+insert into RT_SKARELIN.pracownik_andrii(nrprac, imie, nazwisko, email)
+values(7, 'Radoslaw', 'Potyka', 'radoslaw.potyka@smcebi.edu.pl');

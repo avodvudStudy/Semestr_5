@@ -1,0 +1,8 @@
+
+1. git init
+2. git add .
+3. git commit -m 'initial commit of full repository'
+4. cd /path/to/my/repo
+5. git remote add origin https://andvod@bitbucket.org/andvod/repositoryexercises.git
+6. git push -u origin --all # pushes up the repo and its refs for the first time
+7. git push origin --tags # pushes up any tags

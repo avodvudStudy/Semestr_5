@@ -1,0 +1,19 @@
+#!/bin/bash
+
+list="nie ma takiego katalogu"
+
+if [ "$1" != "" ]; then
+	if [ -d "$1" ]; then
+		list=`ls $1`
+	fi
+else 
+	echo "prosze wpisac nazwe katalogu"
+	read temp
+	if [ -d "$temp" ]; then
+		list=`ls $temp`
+	fi
+fi
+
+echo "$list"
+
+
